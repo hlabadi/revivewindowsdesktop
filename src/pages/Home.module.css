@@ -1,0 +1,76 @@
+.page {
+  padding: 0;
+}
+
+.hero {
+  padding: 40px 40px 32px;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.heroLabel {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--purple);
+  margin-bottom: 10px;
+}
+
+.heroTitle {
+  font-size: 48px;
+  font-weight: 200;
+  color: var(--text-primary);
+  letter-spacing: -1.5px;
+  line-height: 1.05;
+}
+
+.posts {
+  padding: 0 40px 40px;
+}
+
+.post {
+  padding: 28px 0;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.post:last-child {
+  border-bottom: none;
+}
+
+.postMeta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.postDate {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.3px;
+}
+
+.postTag {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--purple);
+  opacity: 0.7;
+}
+
+.postTitle {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+  letter-spacing: -0.3px;
+}
+
+.postBody {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.7;
+  max-width: 640px;
+}

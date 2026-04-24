@@ -1,0 +1,23 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  background-color: #1a6b8a;
+  /* Swap this URL for your own background image */
+  background-image: url('/background.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+:root {
+  --accent-gradient: linear-gradient(180deg, #e91e8c 0%, #ff6600 100%);
+  --border-color: #e0e0e0;
+  --border-light: #f0f0f0;
+  --text-primary: #333;
+  --text-muted: #aaa;
+  --text-nav-inactive: #bbb;
+  --purple: #8b2fc9;
+  --font: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
