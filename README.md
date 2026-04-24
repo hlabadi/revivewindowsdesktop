@@ -65,8 +65,6 @@ Add an entry to `src/data/posts.js`:
 }
 ```
 
-Then add the matching `<item>` block to `public/feed.xml` so RSS subscribers are notified.
-
 ## Development
 
 ```bash

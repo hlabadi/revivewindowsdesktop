@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // Redirect all 404s back to index.html for React Router to handle
+      sessionStorage.redirect = location.href
+    </script>
+    <meta http-equiv="refresh" content="0;url=/" />
+  </head>
+</html>
