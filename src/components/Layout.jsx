@@ -92,7 +92,12 @@ export default function Layout({ children }) {
 
           {/* Footer */}
           <div className={styles.winFooter}>
-            <button className={styles.submitBtn}>submit an app</button>
+            <a
+              className={styles.submitBtn}
+              href="https://github.com/hlabadi/revivewindowsdesktop/issues/new"
+              target="_blank"
+              rel="noreferrer"
+            >submit an app</a>
           </div>
 
         </div>

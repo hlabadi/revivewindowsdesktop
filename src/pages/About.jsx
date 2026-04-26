@@ -19,7 +19,7 @@ export default function About() {
         </section>
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Who runs this?</h2>
-          <p>My name is Henrik Labadi, and I am a Windows Phone/Zune/Metro overall fan.</p>
+          <p>My name is <a href="https://hlabadi.com" target="_blank" rel="noreferrer">Henrik Labadi</a>, and I am a Windows Phone/Zune/Metro overall fan.</p>
         </section>
       </div>
     </div>
